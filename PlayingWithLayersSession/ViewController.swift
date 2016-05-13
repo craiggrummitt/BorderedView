@@ -12,7 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        /*let layer = littleView.layer
+        
+        let sublayer = CALayer()
+        sublayer.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        sublayer.backgroundColor = UIColor.greenColor().CGColor
+        sublayer.cornerRadius = 10
+        sublayer.borderColor = UIColor.blackColor().CGColor
+        sublayer.borderWidth = 10
+        
+        layer.addSublayer(sublayer)
+         */
     }
 
     override func didReceiveMemoryWarning() {

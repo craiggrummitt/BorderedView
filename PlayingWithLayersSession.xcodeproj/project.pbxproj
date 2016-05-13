@@ -14,6 +14,7 @@
 		B96E6CD71CE63B8E001D420D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96E6CD51CE63B8E001D420D /* LaunchScreen.storyboard */; };
 		B96E6CE21CE63B8E001D420D /* PlayingWithLayersSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E6CE11CE63B8E001D420D /* PlayingWithLayersSessionTests.swift */; };
 		B96E6CED1CE63B8E001D420D /* PlayingWithLayersSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E6CEC1CE63B8E001D420D /* PlayingWithLayersSessionUITests.swift */; };
+		B96E6CFB1CE63D0B001D420D /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E6CFA1CE63D0B001D420D /* BorderedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B96E6CE81CE63B8E001D420D /* PlayingWithLayersSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingWithLayersSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96E6CEC1CE63B8E001D420D /* PlayingWithLayersSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingWithLayersSessionUITests.swift; sourceTree = "<group>"; };
 		B96E6CEE1CE63B8E001D420D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96E6CFA1CE63D0B001D420D /* BorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B96E6CD31CE63B8E001D420D /* Assets.xcassets */,
 				B96E6CD51CE63B8E001D420D /* LaunchScreen.storyboard */,
 				B96E6CD81CE63B8E001D420D /* Info.plist */,
+				B96E6CFA1CE63D0B001D420D /* BorderedView.swift */,
 			);
 			path = PlayingWithLayersSession;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96E6CCF1CE63B8E001D420D /* ViewController.swift in Sources */,
+				B96E6CFB1CE63D0B001D420D /* BorderedView.swift in Sources */,
 				B96E6CCD1CE63B8E001D420D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
